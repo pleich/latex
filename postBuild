@@ -7,3 +7,5 @@ test -e test.png && rm test.png
 
 # install JupyterLab extension
 jupyter labextension install @jupyterlab/latex
+jupyter nbextension install https://rawgit.com/jfbercher/latex_envs/master/latex_envs.zip  --user
+jupyter nbextension enable latex_envs/latex_envs	
